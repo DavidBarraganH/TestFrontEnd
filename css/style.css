@@ -1,0 +1,204 @@
+
+/* 
+    Created on : 23/09/2019, 11:32:45 PM
+    Author     : David Barragan
+*/
+
+
+
+/*CONTENIDO PRINCIPAL DEL HOME*/
+
+
+
+nav .nav-wrapper {
+    position: relative;
+    height: 100%;
+    background: #0f4c77;
+}
+
+
+nav .brand-logo.custom-brand {
+    right: 0 !IMPORTANT;
+    margin-right: 28px;
+    text-align: center;
+}
+
+
+
+
+img#icon-cameron {
+    position: absolute;
+    z-index: 5;
+    width: 44%;
+    top: 0;
+    margin-left: 152px;
+    float: left;
+
+}
+
+span.orange-transparent.orange-text {
+    background: #b1b1b180;
+    color: white !important;
+    padding-bottom: 0px !important;
+    font-weight: 500 !important;
+    padding-left: 10px;
+}
+
+.sidenav .user-view {
+    position: relative;
+    padding: 32px 0px 0;
+}
+
+.sidenav .user-view .circle.icon-menu {
+
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 992px){
+        
+    .sidenav .user-view{
+        padding: 32px 0px 0;
+
+    }
+}
+
+nav .brand-logo.custom-brand {
+    right: 0;
+    margin-right: 28px;
+}
+
+
+/** FIXES for error messages https://github.com/Dogfalo/materialize/issues/1562*/
+
+label {
+  width: 100%;
+}
+
+.input-field label {
+  font-size: 0.8rem;
+  -webkit-transform: translateY(-140%);
+  -moz-transform: translateY(-140%);
+  -ms-transform: translateY(-140%);
+  -o-transform: translateY(-140%);
+  transform: translateY(-140%);
+}
+
+
+/* Also, pay attention to:*/
+
+.input-field label[data-error].active:after {
+  font-size: 0.8rem;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+}
+  
+.input-field label[data-error]:after {
+  font-size: 0.8rem;
+  white-space: nowrap;
+  -webkit-transform: translateY(-120%);
+  -moz-transform: translateY(-120%);
+  -ms-transform: translateY(-120%);
+  -o-transform: translateY(-120%);
+  transform: translateY(-120%);
+}
+
+
+.icon_style{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    color: white;
+    cursor:pointer; 
+}
+
+.brand-logo.custom-brand{
+  text-align: center !important;
+}
+
+.title-assign{
+    text-align: center;
+    color: tomato !important;
+}
+
+
+
+/*FIN CONTENIDO PRINCIPAL DEL HOME*/
+
+
+/* CONTENIDO PRINCIPAL DE FORM CREAR */
+
+
+  .crear {
+   
+    padding: 2% !important;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 10px;
+
+
+    background-color: #04718a;
+
+  }
+
+  .inner{
+    background: gray !important;
+    padding: 1% !important; 
+  }
+  .no-color{
+    background-color: white !important;
+  }
+
+  .end-right{
+    float: right;
+  }
+ 
+
+@media only screen and (max-width: 600px) {
+   .down-top{
+    margin-top: 10px !important;
+    width: 100%;
+    }
+
+    .end-right{
+      float: none !important;
+    }
+}
+
+label.select-labels-custom {
+    color: black !important;
+    font-size: 16px !important;
+}
+
+
+.italic-letter{
+  text-transform: lowercase;
+    text-align: right;
+    float: right;
+    color: #36718a;
+    font-style: italic;
+    font-weight: 600;
+    margin-left: 12px;
+}
+
+/*FIN CONTENIDO PRINCIPAL DEL HOME*/
+
+/*SWEET ALERT SCROLLTOP  */
+
+
+
+body.swal2-shown.swal2-height-auto {
+    overflow: visible !important;
+}
+
+body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
+     overflow: auto !important; 
+}
+
+
+
+
